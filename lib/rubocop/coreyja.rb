@@ -1,4 +1,6 @@
-require "rubocop/coreyja/version"
+# frozen_string_literal: true
+
+require 'rubocop/coreyja/version'
 
 module Rubocop
   module Coreyja
