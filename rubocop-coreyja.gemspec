@@ -16,6 +16,8 @@ Gem::Specification.new do |spec|
   spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE", "config/*.yml", "lib/**/*.rb"]
   spec.require_paths = ["lib"]
 
+  spec.add_dependency 'rubocop', Rubocop::Coreyja::VERSION
+
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
