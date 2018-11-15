@@ -1,0 +1,20 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - '*.gemspec'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
